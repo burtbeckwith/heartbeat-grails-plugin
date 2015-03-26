@@ -1,4 +1,4 @@
-# hearbeat-grails-plugin
+# heartbeat-grails-plugin
 
 Heartbeat Plugin provides application version information via HTTP, formatted in JSON. 
 It should be used as an application hearbeat.
@@ -9,7 +9,7 @@ Installation like a Grails Plugin
 
 # Usage
 
-http://localhost/application-name<b>/hearbeat</b>
+http://localhost/application-name<b>/heartbeat</b>
 
 It renders :
 
