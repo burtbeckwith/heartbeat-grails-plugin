@@ -34,15 +34,20 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
-    dependencies {
+    dependencies {y
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
         // runtime 'mysql:mysql-connector-java:5.1.27'
     }
 
     plugins {
-        build(":release:3.0.1",
+        build(":release:3.1.1",
               ":rest-client-builder:1.0.3") {
             export = false
         }
     }
 }
+
+grails.project.repos.releases.url = "http://87.98.143.115:9000/nexus/content/repositories/releases"
+grails.project.repos.snapshots.url = "http://87.98.143.115:9000/nexus/content/repositories/snapshots"
+grails.project.repos.default = "snapshots"
+grails.release.scm.enabled = false
