@@ -46,14 +46,3 @@ grails.project.dependency.resolution = {
         }
     }
 }
-
-grails.project.repos.releases.url = "http://87.98.143.115:9000/nexus/content/repositories/releases"
-grails.project.repos.releases.username = "admin"
-grails.project.repos.releases.password = "axipe;92"
-
-grails.project.repos.snapshots.url = "http://87.98.143.115:9000/nexus/content/repositories/snapshots"
-grails.project.repos.snapshots.username = "admin"
-grails.project.repos.snapshots.password = "axipe;92"
-
-grails.project.repos.default = "snapshots"
-grails.release.scm.enabled = false
